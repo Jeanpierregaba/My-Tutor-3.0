@@ -1,0 +1,542 @@
+@media (max-width: 320px) {
+    button {
+        font-size: 1.375rem;
+        font-weight: 600;
+        width: 15.625rem;
+        height: 4.063rem;
+    }
+
+    .welcome-screen {
+        display: none;
+        height: 100vh; 
+        width: 100vw;
+        justify-content: center; 
+        align-items: center; 
+        background: rgb(138,174,189);
+        background: linear-gradient(0deg, rgba(138,174,189,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 80%, rgba(138,174,189,1) 100%);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome img {
+        width: 90%;
+    }
+
+    .explorer-btn {
+        width: 9rem;
+        height: 3rem;
+        font-size: 0.7rem;
+        border: 5px solid #8aaebd;
+        border-radius: 3rem; /* Rounded corners */
+
+    }
+
+    .main-content {
+        display: block;
+        min-width: 96%;
+        padding: 0 2%;
+
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .first-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* NavBar Menu */
+
+
+    /* 1ere section */
+    .first-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* 2e section */
+    .second-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blocs {
+        display: flex;
+flex-direction: column;
+    }
+
+
+    /* 3e section */
+
+
+}
+
+@media (max-width: 375px) {
+    button {
+        font-size: 1.375rem;
+        font-weight: 600;
+        width: 15.625rem;
+        height: 4.063rem;
+    }
+
+    .welcome-screen {
+        height: 100vh; 
+        width: 100vw;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        background: rgb(138,174,189);
+        background: linear-gradient(0deg, rgba(138,174,189,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 80%, rgba(138,174,189,1) 100%);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome img {
+        width: 90%;
+    }
+
+    .explorer-btn {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1rem;
+        border: 5px solid #8aaebd;
+        border-radius: 3rem; /* Rounded corners */
+
+    }
+
+
+}
+
+@media (max-width: 425px) {
+    button {
+        font-size: 1.375rem;
+        font-weight: 600;
+        width: 15.625rem;
+        height: 4.063rem;
+    }
+
+    .welcome-screen {
+        height: 100vh; 
+        width: 100vw;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        background: rgb(138,174,189);
+        background: linear-gradient(0deg, rgba(138,174,189,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 80%, rgba(138,174,189,1) 100%);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome img {
+        width: 90%;
+    }
+
+    .explorer-btn {
+        width: 11rem;
+        height: 4rem;
+        font-size: 1.2rem;
+        border: 6px solid #8aaebd;
+        border-radius: 3rem; /* Rounded corners */
+
+    }
+
+
+}
+
+@media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+}
+
+.footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+}
+
+.footer .row a i{
+    margin:0% 3%;
+}
+}
+
+@media (max-width: 768px) {
+    button {
+        font-size: 0.8rem;
+        font-weight: 600;
+        width: 15rem;
+        height: 4rem;
+    }
+
+    .welcome-screen {
+        height: 100vh; 
+        width: 100vw;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        background: rgb(138,174,189);
+        background: linear-gradient(0deg, rgba(138,174,189,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 80%, rgba(138,174,189,1) 100%);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome img {
+        width: 80%;
+    }
+
+    .explorer-btn {
+        width: 11.8rem;
+        height: 4.5rem;
+        font-size: 1.5rem;
+        border: 6px solid #8aaebd;
+        border-radius: 3rem; /* Rounded corners */
+
+    }
+
+    /*Navbar*/
+    .navbar button {
+        display: none;
+    }
+    .hamburger {
+        display: flex; /* Affiche le bouton hamburger */
+    }
+    .navbar button a {
+        font-size: 15px;
+    }
+    .navbar img {
+        width: 180px;
+    }
+    .nav-links {
+        display: none;
+    }
+    .nav-links a {
+        color: black;
+        font-size: 0.9rem;
+        transition: color 0.3s ease;
+    }
+
+    /*1ere section*/
+    .first-section {
+        display: flex;
+        justify-content: space-between;
+        padding: 0em 0em;
+        height: auto;
+        margin-bottom: 3rem;
+    }
+    .first-area {
+        width: 50%;
+    }
+    .first-area img {
+        width: 75%;
+    }
+    .second-area {
+        width: 50%;
+        padding: 0em 0em;
+    }
+    .bloc1 h1 {
+        font-size: 0.5rem;
+        line-height: 4rem;
+    }
+    .second-area p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .draw-text-bg {
+        width: 380px;
+    }
+    .first-btn{
+        font-weight: 500;
+        width: 500px;
+        height: 50px;
+    }
+    .first-btn a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+
+    /*2e section*/
+    .second-section {
+        height: auto;
+        margin-top: 3em;
+    }
+    .blocs {
+        gap: 3rem;
+    }
+    .tutor, .student{
+        width: 25rem;
+        height: 30rem;
+        padding: 1.5em;
+    }
+    .bloc h3 {
+        font-size: 2.5rem;
+    }
+    .bloc p {
+        padding: 0.5em;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+    }
+    .bloc button a {
+        font-size: 1.2rem;
+    }
+
+
+    /*3e section*/
+    .third-section {
+        height: auto;
+        height: 100vh; 
+        margin-top: 3.125em;
+    }
+    .contact-area {                                                            
+        width: 90%;
+        height: 80%;
+        padding:  0.3em;
+    }
+    .image-zone img{
+        width: 90%;
+    }
+    .contact-zone {    
+        padding-left: 3%;
+    }
+    .title h3{
+        font-size: 3.4rem;   
+    }
+    .title img{    
+        padding-left: 1em;
+    }
+    .text-zone p{    
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        padding-top: 1em;
+        padding-bottom: 0em;
+    }
+    .areas span:nth-child(1){ 
+        width: 20%;   
+    }
+    .areas span:nth-child(2){    
+        font-weight: 700;
+        font-size: 1rem;
+        padding-left: 30px;
+    }
+
+    /*Footer*/
+    .footer{
+        padding:15px 0px;
+    }
+    .footer .row-social .footer-logo{
+        width: 50%;
+        padding: 0 100px;
+    }
+    .footer .row-social .social-logos h3{
+        color: white;
+        padding: 0 120px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    button {
+        font-size: 0.8rem;
+        font-weight: 600;
+        width: 15rem;
+        height: 4rem;
+    }
+
+    .welcome-screen {
+        height: 100vh; 
+        width: 100vw;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        background: rgb(138,174,189);
+        background: linear-gradient(0deg, rgba(138,174,189,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 80%, rgba(138,174,189,1) 100%);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome img {
+        width: 80%;
+    }
+
+    .explorer-btn {
+        width: 11.8rem;
+        height: 4.5rem;
+        font-size: 1.5rem;
+        border: 6px solid #8aaebd;
+        border-radius: 3rem; /* Rounded corners */
+
+    }
+
+    /*Navbar*/
+    .navbar button {
+        width: 190px;
+        height: 45px;
+    }
+    .navbar button a {
+        font-size: 15px;
+    }
+    .navbar img {
+        width: 180px;
+    }
+    .nav-links {
+        gap: 30px;
+    }
+    .nav-links a {
+        color: black;
+        font-size: 0.9rem;
+        transition: color 0.3s ease;
+    }
+
+    /*1ere section*/
+    .first-section {
+        padding: 6% 6%;
+        height: auto; /* Assurez-vous que la hauteur de cette section est définie si elle ne contient pas assez de contenu pour la remplir */
+        margin-bottom: 3rem;
+    }
+    .first-area {
+        width: 50%;
+    }
+    .first-area img {
+        width: 75%;
+    }
+    .second-area {
+        width: 50%;
+        padding: 0em 0em;
+    }
+    .bloc1 h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .second-area p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .draw-text-bg {
+        width: 380px;
+    }
+    .first-btn{
+        font-weight: 500;
+        width: 500px;
+        height: 50px;
+    }
+    .first-btn a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+
+    /*2e section*/
+    .second-section {
+        height: auto;
+        margin-top: 3em;
+    }
+    .blocs {
+        gap: 3rem;
+    }
+    .tutor, .student{
+        width: 28rem;
+        height: 32rem;
+        padding: 1.5em;
+    }
+    .bloc h3 {
+        font-size: 2.5rem;
+    }
+    .bloc p {
+        padding: 0.5em;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+    }
+    .bloc button a {
+        font-size: 1.2rem;
+    }
+
+
+    /*3e section*/
+    .third-section {
+        height: auto;
+        height: 100vh; 
+        margin-top: 3.125em;
+    }
+    .contact-area {                                                            
+        width: 90%;
+        height: 80%;
+        padding:  0.3em;
+    }
+    .image-zone img{
+        width: 90%;
+    }
+    .contact-zone {    
+        padding-left: 3%;
+    }
+    .title h3{
+        font-size: 3.4rem;   
+    }
+    .title img{    
+        padding-left: 1em;
+    }
+    .text-zone p{    
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        padding-top: 1em;
+        padding-bottom: 0em;
+    }
+    .areas span:nth-child(1){ 
+        width: 20%;   
+    }
+    .areas span:nth-child(2){    
+        font-weight: 700;
+        font-size: 1rem;
+        padding-left: 30px;
+    }
+
+    /*Footer*/
+    .footer{
+        padding:15px 0px;
+    }
+    .footer .row-social .footer-logo{
+        width: 50%;
+        padding: 0 100px;
+    }
+    .footer .row-social .social-logos h3{
+        color: white;
+        padding: 0 120px;
+    }
+
+}

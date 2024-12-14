@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/inscription_tutor.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <img class="bg pattern1" src="../images/bg-pattern-1.svg" alt="">
+        <img class="bg pattern2" src="../images/bg-pattern-2.svg" alt="">
+        <img class="bg pattern3" src="../images/bg-pattern-3.svg" alt="">
+        <img class="bg pattern4" src="../images/bg-pattern-4.svg" alt="">
+        <div class="main-zone">
+            <div class="form-container">
+                <h1>Formulaire d'Inscription</h1>
+                <form id="submission-form">
+                  <label for="nom">Nom:</label>
+                  <input type="text" id="nom" name="nom" required>
+            
+                  <label for="prenom">Prénoms:</label>
+                  <input type="text" id="prenom" name="prenom" required>
+            
+                  <label for="poste">Intitulé de poste:</label>
+                  <input type="text" id="poste" name="poste">
+            
+                  <label for="biographie">Biographie:</label>
+                  <textarea id="biographie" name="biographie"></textarea>
+            
+                  <label for="contact">Contact:</label>
+                  <input type="tel" id="contact" name="contact">
+            
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+            
+                  <label for="site">Site Web:</label>
+                  <input type="url" id="site" name="site">
+            
+                  <label for="cv">Lien vers le CV:</label>
+                  <input type="url" id="cv" name="cv">
+            
+                  <button type="submit">Envoyer</button>
+                </form>
+                <p id="response-message"></p>
+              </div>
+
+        </div>
+    </section>
+    <script src="../js/form-script.js"></script>
+</body>
+</html>
