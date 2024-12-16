@@ -600,13 +600,44 @@ flex-direction: column;
         font-size: 1.8rem;
         transition: color 0.3s ease;
     }
+        /*Footer*/
+        .footer{
+            padding:50px 0px;
+        }
+        .footer .row{
+            font-size: 2em;
+        }
+        .footer .row-social .footer-logo{
+            width: 50%;
+            padding: 0 200px;
+        }
+        .footer .row-social .footer-logo img{
+            width: 300px;
+        }
+        .footer .row-social .footer-logo p{
+            font-size: 30px;
+            color: #fff;
+            padding-top: 30px;
+        }
+        .footer .row-social .social-logos h3{
+            padding: 0 300px;
+            font-size: 3rem;
+        }
+        
+        .footer .row-social a img{
+            width: 70px;
+            padding-top: 30px;
+        }
 
-    /*1ere section*/
+
+
+    /*PAGE ACCEUIL*/
+        /*1ere section*/
     .first-section {
-        padding: 2% 10%;
-        height: auto; /* Assurez-vous que la hauteur de cette section est définie si elle ne contient pas assez de contenu pour la remplir */
-        margin-bottom: 3rem;
-    }
+            padding: 2% 10%;
+            height: auto; /* Assurez-vous que la hauteur de cette section est définie si elle ne contient pas assez de contenu pour la remplir */
+            margin-bottom: 3rem;
+        }
     .first-area {
         width: 50%;
     }
@@ -627,126 +658,114 @@ flex-direction: column;
         font-weight: 600;
     }
     .draw-text-bg {
-        width: 750px;
-        bottom: -4rem;
-    }
+            width: 750px;
+            bottom: -4rem;
+        }
     .first-btn{
-        font-weight: 600;
-        width: 950px;
-        height: 100px;
-        border-radius: 12px;
-    }
+            font-weight: 600;
+            width: 950px;
+            height: 100px;
+            border-radius: 12px;
+        }
     .first-btn a{
-        text-decoration: none;
-        color: white;
-        font-size: 2rem;
-    }
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+        }
 
+        /*2e section*/
+        .second-section {
+            height: auto;
+            margin-top: 3em;
+        }
+        .blocs {
+            gap: 3rem;
+        }
+        .tutor, .student{
+            width: 56rem;
+            height: 64rem;
+            padding: 3em;
+        }
+        .bloc h3 {
+            font-size: 5rem;
+        }
+        .bloc p {
+            padding: 1em;
+            font-size: 3rem;
+            font-weight: 600;
+            line-height: 4rem;
+        }
+        .bloc button {
+            padding: 2em;
+            border-radius: 0.75rem;
+            width: 500px;
+            height: 120px;
+        }
+        .bloc button a {
+            font-size: 3rem;
+        }
 
-    /*2e section*/
-    .second-section {
-        height: auto;
-        margin-top: 3em;
-    }
-    .blocs {
-        gap: 3rem;
-    }
-    .tutor, .student{
-        width: 56rem;
-        height: 64rem;
-        padding: 3em;
-    }
-    .bloc h3 {
-        font-size: 5rem;
-    }
-    .bloc p {
-        padding: 1em;
-        font-size: 3rem;
-        font-weight: 600;
-        line-height: 4rem;
-    }
+        /*3e section*/
+        .third-section {
+            height: 100vh; 
+            margin-top: 3.125em;
+        }
+        .contact-area {                                                            
+            width: 75%;
+            height: 80%;
+            padding:  1em;
+        }
+        .image-zone img{
+            width: 90%;
+        }
+        .contact-zone {    
+            padding-left: 3%;
+        }
+        .title h3{
+            font-size: 6.5rem;   
+        }
+        .title img{    
+            padding-left: 1em;
+            padding-top: 1em;
+        }
+        .text-zone p{    
+            font-size: 3rem;
+            line-height: 3.5rem;
+            padding-top: 0.8em;
+            padding-bottom: 0.5em;
+        }
+        .areas{    
+            width: 95%;
+            height: 5rem;
+        }
+        .areas span:nth-child(1){ 
+            width: 20%; 
+            font-size: 1.6rem;  
+        }
+        .areas span:nth-child(2){    
+            font-weight: 700;
+            font-size: 2rem;
+            padding-left: 30px;
+        }
 
-    .bloc button {
-        padding: 2em;
-        border-radius: 0.75rem;
-        width: 500px;
-        height: 120px;
-    }
-    .bloc button a {
-        font-size: 3rem;
-    }
+    /*PAGE NOUS REJOINDRE (Join_us.html)*/
+        /*Main content)*/
+        .main h1{
+            font-size: 6rem;
+            line-height: 4.688rem;
+            margin: 60px;
+        }
+        .main p{
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 2rem;
+        }
+        .bloc p {
+            padding: 1em;
+            font-size: 3rem;
+            font-weight: 600;
+            line-height: 4rem;
+            text-align: left;
+        }
 
-
-    /*3e section*/
-    .third-section {
-        height: 100vh; 
-        margin-top: 3.125em;
-    }
-    .contact-area {                                                            
-        width: 75%;
-        height: 80%;
-        padding:  1em;
-    }
-    .image-zone img{
-        width: 90%;
-    }
-    .contact-zone {    
-        padding-left: 3%;
-    }
-    .title h3{
-        font-size: 6.5rem;   
-    }
-    .title img{    
-        padding-left: 1em;
-        padding-top: 1em;
-    }
-    .text-zone p{    
-        font-size: 3rem;
-        line-height: 3.5rem;
-        padding-top: 0.8em;
-        padding-bottom: 0.5em;
-    }
-    .areas{    
-        width: 95%;
-        height: 5rem;
-
-    }
-    .areas span:nth-child(1){ 
-        width: 20%; 
-        font-size: 1.6rem;  
-    }
-    .areas span:nth-child(2){    
-        font-weight: 700;
-        font-size: 2rem;
-        padding-left: 30px;
-    }
-
-    /*Footer*/
-    .footer{
-        padding:50px 0px;
-    }
-    .footer .row{
-        font-size: 2em;
-    }
-    .footer .row-social .footer-logo{
-        width: 50%;
-        padding: 0 200px;
-    }
-    .footer .row-social .footer-logo img{
-        width: 300px;
-    }
-    .footer .row-social .footer-logo p{
-        font-size: 30px;
-        color: #fff;
-        padding-top: 30px;
-    }
-    .footer .row-social .social-logos h3{
-        padding: 0 300px;
-        font-size: 3rem;
-    }
-    
-    .footer .row-social a img{
-        width: 70px;
-        padding-top: 30px;
-    }
 }
