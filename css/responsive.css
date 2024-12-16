@@ -80,7 +80,7 @@ flex-direction: column;
 
 }
 
-@media (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 375px) {
     button {
         font-size: 1.375rem;
         font-weight: 600;
@@ -122,7 +122,7 @@ flex-direction: column;
 
 }
 
-@media (max-width: 425px) {
+@media (min-width: 375px) and (max-width: 425px) {
     button {
         font-size: 1.375rem;
         font-weight: 600;
@@ -157,8 +157,130 @@ flex-direction: column;
         height: 4rem;
         font-size: 1.2rem;
         border: 6px solid #8aaebd;
-        border-radius: 3rem; /* Rounded corners */
+        border-radius: 3rem; 
+            
+    }
 
+        /*Navbar*/
+        .navbar button {
+            display: none;
+        }
+        .hamburger {
+            display: flex; /* Affiche le bouton hamburger */
+        }
+        .navbar button a {
+            font-size: 15px;
+        }
+        .navbar img {
+            width: 180px;
+        }
+        .nav-links {
+            display: none;
+        }
+        .nav-links a {
+            color: black;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        /* 1ere section */
+        .first-section {
+            display: flex;
+            flex-direction: column;
+            padding: 1em 1em;
+            align-items: center;
+            height: auto;
+        }
+        .first-area {
+            width: 100%;
+            max-height: 50%;
+            display: flex;
+            justify-content: center;
+        }
+        .second-area {
+            width: 100%;
+            max-height: 50%;
+            padding: 0;
+        }
+        .first-area img {
+            width: 40%;
+        }
+        .blocs {
+            gap: 3rem;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+        }
+        .bloc1 h1 {
+            font-size: 2rem;
+            line-height: 2.5rem;
+            text-align: center;
+
+        }
+        .second-area p {
+            font-size: 0.9rem;
+            font-weight: 500;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .draw-text-bg {
+            position: absolute;
+            bottom: -0.5rem;
+            z-index: -1;
+            left: 7rem;
+            width: 160px;
+        }
+        .section-btn-area {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .first-btn{
+            font-weight: 600;
+            font-size: 1em;
+            width: 250px;
+            height: 50px;
+        }
+
+        /*2e section*/
+    .second-section {
+        height: auto;
+        margin-top: 3em;
+    }
+    .blocs {
+        gap: 3rem;
+    }
+    .tutor, .student{
+        width: 20rem;
+        height: 25rem;
+        padding: 1em;
+    }
+    .bloc h3 {
+        font-size: 2.2rem;
+    }
+    .bloc p {
+        padding: 0.4em;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+    }
+    .bloc button a {
+        font-size: 1.2rem;
+    }
+    .bloc button {
+        width: 150px;
+        height: 50px;
+    }
+    .bloc button a {
+        font-size: 1rem;
+    }
+    .tutor button {
+        right: 3rem;
+    }
+    .student button {
+        left: 3rem;
     }
 
 
@@ -181,7 +303,7 @@ flex-direction: column;
 }
 }
 
-@media (max-width: 768px) {
+@media (min-width:720px) and (max-width: 768px) {
     button {
         font-size: 0.8rem;
         font-weight: 600;
@@ -241,6 +363,32 @@ flex-direction: column;
         font-size: 0.9rem;
         transition: color 0.3s ease;
     }
+
+        /*Footer*/
+        .footer{
+            padding:15px 0px;
+        }
+        .footer .row-social .footer-logo{
+            width: 50%;
+            padding: 0 80px;
+        }
+        .footer .row-social .social-logos h3{
+            color: white;
+            padding: 0 90px;
+            font-size: 1em;
+        }
+        .footer .row-social .footer-logo img{
+            width: 125px;
+        }
+        
+        .footer .row-social .footer-logo p{
+            font-size: 10px;
+            color: #fff;
+            padding-top: 10px;
+        }
+        .footer .row {
+            font-size: 0.8em;
+        }
 
     /*1ere section*/
     .first-section {
