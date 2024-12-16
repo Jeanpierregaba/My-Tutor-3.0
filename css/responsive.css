@@ -246,7 +246,7 @@ flex-direction: column;
     .first-section {
         display: flex;
         justify-content: space-between;
-        padding: 0em 0em;
+        padding: 2em 3em;
         height: auto;
         margin-bottom: 3rem;
     }
@@ -261,15 +261,15 @@ flex-direction: column;
         padding: 0em 0em;
     }
     .bloc1 h1 {
-        font-size: 0.5rem;
-        line-height: 4rem;
+        font-size: 2.5rem;
+        line-height: 3rem;
     }
     .second-area p {
         font-size: 1rem;
         font-weight: 500;
     }
     .draw-text-bg {
-        width: 380px;
+        width: 300px;
     }
     .first-btn{
         font-weight: 500;
@@ -363,7 +363,7 @@ flex-direction: column;
 
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1200px){
     button {
         font-size: 0.8rem;
         font-weight: 600;
@@ -541,7 +541,12 @@ flex-direction: column;
 
 }
 
-@media (min-width: 2560px) and (max-width: 5120px) {
+@media (min-width: px) and (max-width: 2318px) {
+   
+
+}
+
+@media (min-width: 2318px) and (max-width: 5120px) {
     button {
         font-size: 0.8rem;
         font-weight: 600;
