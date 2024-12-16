@@ -768,4 +768,23 @@ flex-direction: column;
             text-align: left;
         }
 
+    /*PAGE NOS TUTEURS (matiere.html)*/
+        /*content)*/
+        .content img{
+            width: 50%;
+        }
+        h1 {
+            font-size: 7rem;
+            font-weight: 600;
+            text-align: left;
+            color: white;
+            margin: 20px 50px;
+        }
+        button {
+            border-radius: 12px;
+            font-size: 2rem;
+            font-weight: 500;
+            width: 500px;
+            height: 100px;
+        }
 }
