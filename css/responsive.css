@@ -603,7 +603,7 @@ flex-direction: column;
 
     /*1ere section*/
     .first-section {
-        padding: 5% 12%;
+        padding: 2% 10%;
         height: auto; /* Assurez-vous que la hauteur de cette section est définie si elle ne contient pas assez de contenu pour la remplir */
         margin-bottom: 3rem;
     }
@@ -652,34 +652,40 @@ flex-direction: column;
         gap: 3rem;
     }
     .tutor, .student{
-        width: 28rem;
-        height: 32rem;
-        padding: 1.5em;
+        width: 56rem;
+        height: 64rem;
+        padding: 3em;
     }
     .bloc h3 {
-        font-size: 2.5rem;
+        font-size: 5rem;
     }
     .bloc p {
-        padding: 0.5em;
-        font-size: 1.5rem;
-        font-weight: 500;
-        line-height: 1.8rem;
+        padding: 1em;
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 4rem;
+    }
+
+    .bloc button {
+        padding: 2em;
+        border-radius: 0.75rem;
+        width: 500px;
+        height: 120px;
     }
     .bloc button a {
-        font-size: 1.2rem;
+        font-size: 3rem;
     }
 
 
     /*3e section*/
     .third-section {
-        height: auto;
         height: 100vh; 
         margin-top: 3.125em;
     }
     .contact-area {                                                            
-        width: 90%;
+        width: 75%;
         height: 80%;
-        padding:  0.3em;
+        padding:  1em;
     }
     .image-zone img{
         width: 90%;
@@ -688,37 +694,59 @@ flex-direction: column;
         padding-left: 3%;
     }
     .title h3{
-        font-size: 3.4rem;   
+        font-size: 6.5rem;   
     }
     .title img{    
         padding-left: 1em;
+        padding-top: 1em;
     }
     .text-zone p{    
-        font-size: 1.2rem;
-        line-height: 1.8rem;
-        padding-top: 1em;
-        padding-bottom: 0em;
+        font-size: 3rem;
+        line-height: 3.5rem;
+        padding-top: 0.8em;
+        padding-bottom: 0.5em;
+    }
+    .areas{    
+        width: 95%;
+        height: 5rem;
+
     }
     .areas span:nth-child(1){ 
-        width: 20%;   
+        width: 20%; 
+        font-size: 1.6rem;  
     }
     .areas span:nth-child(2){    
         font-weight: 700;
-        font-size: 1rem;
+        font-size: 2rem;
         padding-left: 30px;
     }
 
     /*Footer*/
     .footer{
-        padding:15px 0px;
+        padding:50px 0px;
+    }
+    .footer .row{
+        font-size: 2em;
     }
     .footer .row-social .footer-logo{
         width: 50%;
-        padding: 0 100px;
+        padding: 0 200px;
+    }
+    .footer .row-social .footer-logo img{
+        width: 300px;
+    }
+    .footer .row-social .footer-logo p{
+        font-size: 30px;
+        color: #fff;
+        padding-top: 30px;
     }
     .footer .row-social .social-logos h3{
-        color: white;
-        padding: 0 120px;
+        padding: 0 300px;
+        font-size: 3rem;
     }
-
+    
+    .footer .row-social a img{
+        width: 70px;
+        padding-top: 30px;
+    }
 }
