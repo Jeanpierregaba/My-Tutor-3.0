@@ -166,7 +166,8 @@ flex-direction: column;
             display: none;
         }
         .hamburger {
-            display: flex; /* Affiche le bouton hamburger */
+            display: flex;
+            position: sticky; /* Affiche le bouton hamburger */
         }
         .navbar button a {
             font-size: 15px;
@@ -270,6 +271,7 @@ flex-direction: column;
         font-size: 1.2rem;
     }
     .bloc button {
+        padding: 0;
         width: 150px;
         height: 50px;
     }
@@ -281,6 +283,15 @@ flex-direction: column;
     }
     .student button {
         left: 3rem;
+    }
+
+
+    /*3e section*/
+    .title h3{
+        font-size: 2.5rem;   
+    }
+    .contact-area {  
+        flex-direction: column;                                                          
     }
 
 
@@ -476,7 +487,7 @@ flex-direction: column;
     .third-section {
         height: auto;
         height: 100vh; 
-        margin-top: 3.125em;
+        margin-top: 2.5em;
     }
     .contact-area {                                                            
         width: 90%;
