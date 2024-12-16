@@ -773,18 +773,84 @@ flex-direction: column;
         .content img{
             width: 50%;
         }
-        h1 {
+        .content h1 {
             font-size: 7rem;
             font-weight: 600;
             text-align: left;
             color: white;
             margin: 20px 50px;
         }
-        button {
+        .grid button {
             border-radius: 12px;
             font-size: 2rem;
             font-weight: 500;
             width: 500px;
             height: 100px;
         }
+
+    /*PAGE NOS Listes des TUTEURS ()*/
+        /*content)*/
+        .content-page {
+            height: auto;
+        }
+        .content-page h1 {
+            font-size: 5rem;
+            font-weight: 600;
+            text-align: center;
+            color: #3c7891;
+            margin: 50px 50px;
+        }
+        .content-page  {
+            padding: 2em 24em;
+        }
+        .tutors-infos{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 2em;  
+        }
+        .profil{
+            border-width: 10px;
+            max-height: 550px;
+            border-radius: 50px;
+        }
+        .description{
+            border-width: 10px;
+            border-radius: 50px;
+            max-height: 550px;
+            padding: 2em 3em;
+        }
+        .description h3{
+            font-size: 60px;
+        }
+        .description p{
+            font-size: 24px;
+            padding-top: 10px;
+            line-height: 46px;
+        }
+        .poste{
+            font-size: 30px;
+            color: white;
+            font-weight: 300;  
+        }
+        .contact{
+            padding-top: 20px;
+        }
+        .contact .space img{
+            width: 18%;
+            padding-right: 30px;
+        }
+        .contact .space span{
+            color: white;
+            font-weight: 500;
+            font-size: 28px;
+            padding-top: 5px;
+        }
+        .description button{
+            width: 400px;
+            height: 100px;
+            font-size: 2em;
+            border-radius: 15px;
+        }
+        
 }
