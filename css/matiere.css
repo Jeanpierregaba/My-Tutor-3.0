@@ -76,4 +76,31 @@
   button:active {
     transform: scale(0.95); /* Effet de clic */
   }
+
+  @media (min-width: 0px) and (max-width: 425px) {
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-align: center;
+      margin: 0;
+      padding-bottom: 15px;
+    }
+    button {
+      border-width: 1px;
+      font-size: 0.7rem;
+      width: 170px;
+      height: 40px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 4 colonnes */
+      gap: 10px; /* Espacement entre les zones */
+      justify-items: center;
+    }
+    .content a img{
+      width: 30%;
+    }
+
+ 
+}
   
