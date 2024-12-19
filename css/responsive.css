@@ -203,6 +203,19 @@
         font-weight: 700;
         font-size: 0.8rem;
     }
+
+        /*cta student*/
+    .main-area{
+        flex-direction: column-reverse !important;
+        padding: 0 !important; 
+        align-items: center;
+    }
+    .first-area h1{
+        font-size: 20px !important;
+        line-height: normal !important;
+    }
+
+
     .footer{
         padding: 2%;
     }
@@ -247,7 +260,7 @@
         margin:0px 30px;
         text-align: center !important;
     }
-
+    
 
 }
 
