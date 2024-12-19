@@ -99,9 +99,13 @@ header {
      
     }
 
-    .navbar button {
+    .navbar .navbar-btn{
         width: 200px;
         height: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        border-radius: 5px;
     }
 
     .navbar img {
@@ -324,20 +328,15 @@ header {
     }
 
     /* LES BOUTONS COMMENCER */
-    .bloc button {
+    .bloc a button {
         position: absolute;
         bottom: 1.563rem;
-        padding: 0.938em;
         color: #ffffff;
         cursor: pointer;
         border-radius: 0.75rem;
         transition: background-color 0.3s ease, transform 0.2s ease;
     }
-    .bloc button a {
-      font-size: 1.5rem;
-      color: white;
-      text-decoration: none;
-    }
+
     .tutor button {
         right: 5rem;
         background-color: #3c7891;
