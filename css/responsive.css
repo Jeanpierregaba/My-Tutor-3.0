@@ -374,23 +374,6 @@ flex-direction: column;
 
 }
 
-@media (max-width:720px){
-    .footer{
-    text-align:left;
-    padding:5%;
-}
-
-.footer .row ul li{
-    display:block;
-    margin:10px 0px;
-    text-align:left;
-}
-
-.footer .row a i{
-    margin:0% 3%;
-}
-}
-
 @media (min-width:720px) and (max-width: 768px) {
     button {
         font-size: 0.8rem;
@@ -509,7 +492,7 @@ flex-direction: column;
     }
     .first-btn{
         font-weight: 500;
-        width: 500px;
+        width: 350px;
         height: 50px;
     }
     .first-btn a{
@@ -605,6 +588,8 @@ flex-direction: column;
         border-radius: 0.75rem;
         padding: 0.625em;
         margin-top: 2.813em;
+        justify-content: space-between;
+        align-items: center;
     }
 
     /*Footer*/
