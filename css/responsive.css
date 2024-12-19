@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+/*@media (max-width: 320px) {
     button {
         font-size: 1.375rem;
         font-weight: 600;
@@ -33,7 +33,7 @@
         height: 3rem;
         font-size: 0.7rem;
         border: 5px solid #8aaebd;
-        border-radius: 3rem; /* Rounded corners */
+        border-radius: 3rem; /* Rounded corners 
 
     }
 
@@ -75,12 +75,12 @@ flex-direction: column;
     }
 
 
-    /* 3e section */
+     /*3e section 
 
 
-}
+}*/
 
-@media (min-width: 320px) and (max-width: 375px) {
+/*@media (min-width: 0px) and (max-width: 375px) {
     button {
         font-size: 1.375rem;
         font-weight: 600;
@@ -115,14 +115,14 @@ flex-direction: column;
         height: 3rem;
         font-size: 1rem;
         border: 5px solid #8aaebd;
-        border-radius: 3rem; /* Rounded corners */
+        border-radius: 3rem; /* Rounded corners
 
     }
 
 
-}
+}*/
 
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 0px) and (max-width: 425px) {
     body {
         overflow-x: hidden;
     }
