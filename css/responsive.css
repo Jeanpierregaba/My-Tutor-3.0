@@ -271,16 +271,11 @@ flex-direction: column;
         font-weight: 500;
         line-height: 1.8rem;
     }
-    .bloc button a {
-        font-size: 1.2rem;
-    }
-    .bloc button {
+    .bloc a button  {
+        font-size: 1rem;
         padding: 0;
         width: 150px;
         height: 50px;
-    }
-    .bloc button a {
-        font-size: 1rem;
     }
     .tutor button {
         right: 3rem;
@@ -291,6 +286,12 @@ flex-direction: column;
 
 
     /*3e section*/
+    .third-section {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        height: auto; 
+    }
     .title h3{
         font-size: 2.5rem;   
     }
@@ -319,10 +320,11 @@ flex-direction: column;
     .areas {  
         margin: 0;
         justify-content: space-between;
+        align-items: center;
     }
     .areas span:nth-child(2){    
         font-weight: 700;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .footer{
         padding: 2%;
