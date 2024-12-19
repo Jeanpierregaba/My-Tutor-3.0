@@ -284,6 +284,7 @@ header {
 
     .second-section {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         text-align: center;
